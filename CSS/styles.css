@@ -1,0 +1,219 @@
+
+/* dodaj root colors czcionki */
+
+:root {
+  --outside-background-color: #e5e5e5;
+  --header-footer-color: #212121;
+  --page-color: white;
+  --interactive-elements-color: #2196f3;
+  --main-font-color: #212121;
+  --secondary-font-color: #757575;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+}
+
+.section-team {
+background-color: #F5F4FA;
+}
+
+.logo {
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: black;
+  text-decoration: none;
+}
+
+.logo-part {
+  color: var(--interactive-elements-color);
+}
+
+.list {
+  list-style: none;
+ 
+}
+
+.link {
+  color:var(--main-font-color);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.link-contacts {
+  color:var(--secondary-font-color);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.link:hover {
+  color: var(--interactive-elements-color);
+}
+
+.link-contacts:hover {
+  color: var(--interactive-elements-color);
+}
+
+.main-section {
+  background-color: var(--header-footer-color);
+  text-align: center;
+  
+}
+.main-header {
+  background-color: var(--header-footer-color);
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: white;
+}
+
+.button-header {
+  background-color: var(--interactive-elements-color);
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-align:center;
+  text-decoration: none;
+  border-style: none;
+  Height: 50px;
+  Font-size: 16px;
+  cursor: pointer;
+}
+
+.button-header:hover {
+ color: var(--main-font-color);
+ background-color:#F5F4FA;
+}
+
+.buttons-portfolio {
+ background-color: #F5F4FA;
+  color: var(--main-font-color);
+   font-family: "Roboto", sans-serif;
+  text-align: center;
+  text-decoration: none;
+  border-style: none;
+  Height: 50px;
+  Font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  
+
+}
+
+.buttons-portfolio:hover {
+  color: white;
+  background-color: var(--interactive-elements-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+.p-titles {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--main-font-color);
+}
+
+.paragraphs-main-page {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--secondary-font-color);
+}
+
+.secondary-header {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--main-font-color);
+}
+
+.figcaption-main-page {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: var(--secondary-font-color);
+}
+
+.figcaption-portfolio {
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.03em;
+text-align: left;
+color: var(--secondary-font-color);
+}
+
+.team-names {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: var(--main-font-color);
+}
+
+.project-name {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  text-align: left;
+  color: var(--main-font-color);
+}
+
+.footer {
+  background-color: var(--header-footer-color);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.footer-logo {
+color: #ffffff;
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 0.03em;
+text-align: left;
+text-decoration: none;
+}
+
+.link-footer {
+  color: #FFFFFF99;
+  text-decoration: none;
+}
+
+.link-footer:hover {
+  color: var(--interactive-elements-color);
+}
